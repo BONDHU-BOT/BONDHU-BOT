@@ -1,18 +1,11 @@
 import re
 import pandas as pd
 import numpy as np
-import seaborn as sns
 from sklearn.model_selection import train_test_split
 from keras.preprocessing.text import Tokenizer
 from numpy import array, asarray, zeros
 from keras.models import Sequential, load_model
 from keras.preprocessing.sequence import pad_sequences
-from keras.layers import Flatten, GlobalMaxPooling1D
-from keras.layers.core import Activation, Dropout, Dense
-from keras.layers.embeddings import Embedding
-import matplotlib.pyplot as plt
-from keras.layers import Conv1D
-from keras.layers import LSTM
 
 class SentimentModel:
     
