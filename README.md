@@ -15,7 +15,7 @@ pip install -r requirements.txt
   - glove.6B.100d.txt : https://www.kaggle.com/danielwillgeorge/glove6b100dtxt
 
 ##### Preview:
-![Screenshot from 2020-12-23 11-54-38](https://user-images.githubusercontent.com/35567854/102964440-dbd91980-4515-11eb-868b-6b924d29eee7.png)
+![Screenshot from 2020-12-23 13-53-42](https://user-images.githubusercontent.com/35567854/102973097-6295f280-4526-11eb-92d8-bb6295ca7599.png)
 
 -------------
 
