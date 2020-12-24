@@ -8,9 +8,6 @@ from keras.models import Sequential, load_model
 from keras.preprocessing.sequence import pad_sequences
 
 class SentimentModel:
-    
-    def getName(self):
-        return "Sentiment"
 
     def predictions(self, text, tokenizer):
         model_sentiment = load_model('/home/shiningflash/Documents/BONDHU-BOT/SentimentAnalysis/model_sentiment.m5')
