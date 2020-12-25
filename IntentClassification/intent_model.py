@@ -52,7 +52,7 @@ class IntentModel:
         global max_len
         max_len = self.max_length(cleaned_words)
 
-        model = load_model("/home/shiningflash/Documents/BONDHU-BOT/IntentClassification/data/model.h5")
+        model = load_model("/home/shiningflash/Documents/BONDHU-BOT/IntentClassification/model.h5")
 
         return word_tokenizer, model, unique_intent
 
