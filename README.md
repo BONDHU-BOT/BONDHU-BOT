@@ -1,8 +1,6 @@
-<h2 align=center> BONDHU-BOT</h2>
-------------
-```
+<h1 align=center> BONDHU-BOT</h1>
+
 <h5 align=center>Our plan is to build a human-like chatbot which will be more interactive and more efficient in responding.</h5>
-```
 
 ------------
 
