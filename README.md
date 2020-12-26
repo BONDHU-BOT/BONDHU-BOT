@@ -1,8 +1,10 @@
-# BONDHU-BOT
+<h2 align=center> BONDHU-BOT</h2>
 ------------
 ```
-Our plan is to build a human-like chatbot which will be more interactive and more efficient in responding.
+<h5 align=center>Our plan is to build a human-like chatbot which will be more interactive and more efficient in responding.</h5>
 ```
+
+------------
 
 ```
 pip install -r requirements.txt
