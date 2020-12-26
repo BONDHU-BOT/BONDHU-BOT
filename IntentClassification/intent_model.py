@@ -44,7 +44,7 @@ class IntentModel:
         return(pad_sequences(encoded_doc, maxlen = max_length, padding = "post"))
 
     def main(self):
-        _, _, unique_intent, sentences = self.load_dataset("/home/shiningflash/Documents/BONDHU-BOT/IntentClassification/data/Dataset.csv", "text", "category")
+        _, _, unique_intent, sentences = self.load_dataset("IntentClassification/data/Dataset.csv", "text", "category")
         
         cleaned_words = self.cleaning(sentences)
         word_tokenizer = self.create_tokenizer(cleaned_words)
@@ -52,7 +52,7 @@ class IntentModel:
         global max_len
         max_len = self.max_length(cleaned_words)
 
-        model = load_model("/home/shiningflash/Documents/BONDHU-BOT/IntentClassification/model.h5")
+        model = load_model("IntentClassification/model.h5")
 
         return word_tokenizer, model, unique_intent
 

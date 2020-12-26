@@ -10,7 +10,7 @@ from keras.preprocessing.sequence import pad_sequences
 class SentimentModel:
 
     def predictions(self, text, tokenizer):
-        model_sentiment = load_model('/home/shiningflash/Documents/BONDHU-BOT/SentimentAnalysis/model_sentiment.m5')
+        model_sentiment = load_model('SentimentAnalysis/model_sentiment.m5')
 
         text1 = tokenizer.texts_to_sequences(text)
         text2 = pad_sequences(
@@ -52,8 +52,8 @@ class SentimentModel:
 
     def main(self):
         df = []
-        df.append(pd.read_csv('/home/shiningflash/Documents/BONDHU-BOT/SentimentAnalysis/data/IMDB Dataset.csv', nrows = 10000))
-        df.append(pd.read_csv('/home/shiningflash/Documents/BONDHU-BOT/SentimentAnalysis/data/Sentiment Analysis Dataset 100000.csv', encoding = 'latin-1', nrows = 10000))
+        df.append(pd.read_csv('SentimentAnalysis/data/IMDB Dataset.csv', nrows = 10000))
+        df.append(pd.read_csv('SentimentAnalysis/data/Sentiment Analysis Dataset 100000.csv', encoding = 'latin-1', nrows = 10000))
         df[1].drop(['ItemID'], axis = 'columns', inplace = True)
 
         X = [["0"]*10000]*3
@@ -126,7 +126,7 @@ class SentimentModel:
             )
         
         embed_dictionary = dict()
-        glv_file = open('/home/shiningflash/Documents/BONDHU-BOT/SentimentAnalysis/data/glove.6B.100d.txt', encoding='utf8')
+        glv_file = open('SentimentAnalysis/data/glove.6B.100d.txt', encoding='utf8')
 
         for line in glv_file:
             records = line.split()

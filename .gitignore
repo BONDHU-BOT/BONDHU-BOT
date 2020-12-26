@@ -1,5 +1,9 @@
 SentimentAnalysis/data
 SentimentAnalysis/__pycache__
+
 IntentClassification/data
 IntentClassification/__pycache__
+
+NamedEntityRecognition/data
+NamedEntityRecognition/__pycache__
 
