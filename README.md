@@ -1,5 +1,8 @@
 # BONDHU-BOT
 ------------
+```
+Our plan is to build a human-like chatbot which will be more interactive and more efficient in responding.
+```
 
 ```
 pip install -r requirements.txt
