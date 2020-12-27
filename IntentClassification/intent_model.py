@@ -4,11 +4,10 @@ from nltk.tokenize import word_tokenize
 import nltk
 import re
 from sklearn.preprocessing import OneHotEncoder
-import matplotlib.pyplot as plt
 from keras.preprocessing.text import Tokenizer
 from keras.preprocessing.sequence import pad_sequences
 from keras.utils import to_categorical
-from keras.models import Sequential, load_model
+from keras.models import load_model
 
 class IntentModel:
 

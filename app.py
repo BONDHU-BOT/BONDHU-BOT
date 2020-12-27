@@ -2,6 +2,7 @@ from flask import Flask, render_template, request
 import SentimentAnalysis.sentiment_model as sentiment_model
 import IntentClassification.intent_model as intent_model
 import NamedEntityRecognition.ner_model as ner_model
+import EmotionDetection.emotion_model as emotion_model
 
 app = Flask(__name__)
 
@@ -12,6 +13,9 @@ global intent_tokenizer
 global model_intent
 global unique_intent
 global named_entity
+global emotion
+global emotion_tokenizer
+global model_emotion
 
 @app.route("/")
 def home():
@@ -30,7 +34,15 @@ def get_bot_response():
     
     global named_entity
     predicted_ner = named_entity.get_prediction(userText)
-    return str("predicted sentiment - " + predicted_sentiment + ".\n\npredicted intent - " + predicted_intent + ".\n\npredicted named-entity - " + predicted_ner)
+
+    global emotion
+    global model_emotion
+    predicted_emotion = emotion.get_final_prediction(userText, emotion_tokenizer, model_emotion)
+
+    return str("predicted sentiment - " + predicted_sentiment \
+        + ".\n\npredicted intent - " + predicted_intent \
+        + ".\n\npredicted named-entity - " + predicted_ner) \
+        + ".\n\npredicted emotion - " + predicted_emotion
 
 def get_sentiment():
     global sentiment
@@ -51,6 +63,14 @@ def get_ner():
     named_entity = ner_model.NERModel()
     named_entity.main()
 
+def get_emotion():
+    global emotion
+    global emotion_tokenizer
+    global model_emotion
+    global unique_emotion
+    emotion = emotion_model.EmotionModel()
+    emotion_tokenizer, model_emotion = emotion.main()
+
 def main():
     print('\nplease wait ...\n')
     get_sentiment()
@@ -58,6 +78,8 @@ def main():
     get_intent()
     print('\nplease wait ...\n')
     get_ner()
+    print('\nplease wait ...\n')
+    get_emotion()
 
 if __name__ == "__main__":
     main()
