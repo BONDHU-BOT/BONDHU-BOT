@@ -1,7 +1,4 @@
-<h1 align=center> BONDHU-BOT</h1>
-
-<h5 align=center>Our plan is to build a human-like chatbot which will be more interactive and more efficient in responding.</h5>
-
+# BONDHU-BOT
 ------------
 
 ```
@@ -44,14 +41,18 @@ pip install -r requirements.txt
 ##### Preview:
 ![Screenshot from 2020-12-26 17-39-29](https://user-images.githubusercontent.com/35567854/103151252-89625c00-47a6-11eb-9b0b-7704c02f2fd6.png)
 
-## Version - 4.0 (Emotion Detection)
+## [Version - 4.0](https://github.com/BONDHU-BOT/BONDHU-BOT/tree/sentiment_intent_ner_emotion) (Emotion Detection Included)
 -------------
-```
-comming soon
-```
+-------------
+
+##### Requirements:
+- dataset already included
+
+##### Preview:
+![Screenshot from 2020-12-27 22-27-35](https://user-images.githubusercontent.com/35567854/103175314-3fa36f80-4893-11eb-83c8-42b62182bb5e.png)
 
 ## Version - 5.0 (Final Version Chatbot)
 -------------
 ```
-comming soon
+Future Work
 ```
