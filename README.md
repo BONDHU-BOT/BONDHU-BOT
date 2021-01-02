@@ -8,7 +8,7 @@
 pip install -r requirements.txt
 ```
 
-## [Version - 1.0](https://github.com/BONDHU-BOT/BONDHU-BOT/tree/sentiment) (Sentiment Analysis)
+## Version - 1.0 (Sentiment Analysis)
 
 
 ##### Requirements:
@@ -19,12 +19,21 @@ pip install -r requirements.txt
   - glove.6B.100d.txt : https://www.kaggle.com/danielwillgeorge/glove6b100dtxt
 
 ##### Preview:
-![Screenshot from 2020-12-25 21-15-16](https://user-images.githubusercontent.com/35567854/103151280-c1699f00-47a6-11eb-8c9a-cc3aaef4bdb4.png)
+![p1](https://user-images.githubusercontent.com/35567854/103456754-53335800-4d23-11eb-84bf-69c2e3d130e9.png)
 
 -------------
 
-## [Version - 2.0](https://github.com/BONDHU-BOT/BONDHU-BOT/tree/sentiment_intent) (Intent Analysis Included)
+## Version - 2.0 (Emotion Detection Included)
 
+##### Requirements:
+- dataset already included
+
+##### Preview:
+![p2](https://user-images.githubusercontent.com/35567854/103456760-6fcf9000-4d23-11eb-89f7-3440e308b4dc.png)
+
+-------------
+
+## Version - 3.0 (Intent Classification Inlcuded)
 
 ##### Requirements:
 - add a 'IntentClassification/data' folder and put your downloaded dataset there
@@ -32,12 +41,11 @@ pip install -r requirements.txt
   - Dataset.csv : https://raw.githubusercontent.com/PolyAI-LDN/task-specific-datasets/master/banking_data/train.csv
 
 ##### Preview:
-![Screenshot from 2020-12-25 21-09-51](https://user-images.githubusercontent.com/35567854/103151109-54093e80-47a5-11eb-9308-233714e8abe5.png)
+![p3](https://user-images.githubusercontent.com/35567854/103456774-8a096e00-4d23-11eb-9e18-012c3492b064.png)
 
 -------------
 
-## [Version - 3.0](https://github.com/BONDHU-BOT/BONDHU-BOT/tree/sentiment_intent_ner) (Named-Entity Recognition Inlcuded)
-
+## Version - 4.0 (Named-Entity Recognition Included)
 
 ##### Requirements:
 - add a 'NamedEntityRecognition/data' folder and put your downloaded dataset there
@@ -45,18 +53,7 @@ pip install -r requirements.txt
   - ner_dataset.csv : https://www.kaggle.com/namanj27/ner-dataset
 
 ##### Preview:
-![Screenshot from 2021-01-02 15-32-36](https://user-images.githubusercontent.com/35567854/103454744-342bca80-4d11-11eb-8af9-6fa5e8078287.png)
-
--------------
-
-## [Version - 4.0](https://github.com/BONDHU-BOT/BONDHU-BOT/tree/sentiment_intent_ner_emotion) (Emotion Detection Included)
-
-
-##### Requirements:
-- dataset already included
-
-##### Preview:
-![Screenshot from 2021-01-02 15-41-44](https://user-images.githubusercontent.com/35567854/103454754-4d347b80-4d11-11eb-8810-597c099774a6.png)
+![p4](https://user-images.githubusercontent.com/35567854/103456787-a3aab580-4d23-11eb-91d2-d8a461ad1ab7.png)
 
 -------------
 
