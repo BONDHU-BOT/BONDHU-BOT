@@ -45,7 +45,7 @@ pip install -r requirements.txt
   - ner_dataset.csv : https://www.kaggle.com/namanj27/ner-dataset
 
 ##### Preview:
-![Screenshot from 2020-12-26 17-39-29](https://user-images.githubusercontent.com/35567854/103151252-89625c00-47a6-11eb-9b0b-7704c02f2fd6.png)
+![Screenshot from 2021-01-02 15-32-36](https://user-images.githubusercontent.com/35567854/103454744-342bca80-4d11-11eb-8af9-6fa5e8078287.png)
 
 -------------
 
@@ -56,7 +56,7 @@ pip install -r requirements.txt
 - dataset already included
 
 ##### Preview:
-![Screenshot from 2020-12-27 22-27-35](https://user-images.githubusercontent.com/35567854/103175314-3fa36f80-4893-11eb-83c8-42b62182bb5e.png)
+![Screenshot from 2021-01-02 15-41-44](https://user-images.githubusercontent.com/35567854/103454754-4d347b80-4d11-11eb-8810-597c099774a6.png)
 
 -------------
 
